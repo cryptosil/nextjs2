@@ -15,8 +15,8 @@ importers:
         specifier: ^1.1.3
         version: 1.1.3(@types/react@18.3.11)(react@18.3.1)
       '@vkontakte/icons':
-        specifier: ^2.144.0
-        version: 2.144.0(react@18.3.1)
+        specifier: ^2.157.0
+        version: 2.157.0(react@18.3.1)
       '@vkontakte/vkui':
         specifier: ^6.7.2
         version: 6.7.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -528,6 +528,9 @@ packages:
   '@swc/helpers@0.5.13':
     resolution: {integrity: sha512-UoKGxQ3r5kYI9dALKJapMmuK+1zWM/H17Z1+iwnNmzcJRnfFuevZs375TA5rW31pu4BS4NoSy1fRsexDXfWn5w==}
 
+  '@swc/helpers@0.5.15':
+    resolution: {integrity: sha512-JQ5TuMi45Owi4/BIMAJBoSQoOJu12oOk/gADqlcUL9JEdHB8vyjUSsxqeNXnmXHjYKMi2WcYtezGEEhqUI/E2g==}
+
   '@swc/helpers@0.5.5':
     resolution: {integrity: sha512-KGYxvIOXcceOAbEk4bi/dVLEK9z8sZ0uBB3Il5b1rhfClSpcX0yfRO0KmTkqR2cnQDymwLB+25ZyMzICg/cm/A==}
 
@@ -710,13 +713,13 @@ packages:
   '@vercel/static-config@3.0.0':
     resolution: {integrity: sha512-2qtvcBJ1bGY0dYGYh3iM7yGKkk971FujLEDXzuW5wcZsPr1GSEjO/w2iSr3qve6nDDtBImsGoDEnus5FI4+fIw==}
 
-  '@vkontakte/icons-sprite@2.3.0':
-    resolution: {integrity: sha512-YzAcdZdcM8DqgTMDOSBqfXN72vEaCe6YfdRLH4DAwB0niRQrly6E/2AyYaiIowsvCklF8O0DmpVp84mibdQEQg==}
+  '@vkontakte/icons-sprite@2.3.1':
+    resolution: {integrity: sha512-j7HB2Mqw2kJdWN/sTgiXDW7hXpsIM6l5MYYJ9OisxtzbitXH1wvl7aEXUc3NuR0JPVg7ImaZeot+HU4VjtMcag==}
     peerDependencies:
       react: ^16.9.34 || ^17 || ^18
 
-  '@vkontakte/icons@2.144.0':
-    resolution: {integrity: sha512-jDSFzMt9PAIeJcydiH33yyvKNnOV55vm/hAGDNrWy2mX+e/OykRVBupEBchZvCb44IdNO0XWmJy9kDTOi8uqtg==}
+  '@vkontakte/icons@2.157.0':
+    resolution: {integrity: sha512-SIbI1rKhMYkMJzfzhQLeF/xXGuNrcrvj3K74ZBVH/DQSa6RoFzcpW+lu9jOOjFWQi42leKWDrdK9Jzt/uE2B/g==}
     peerDependencies:
       react: ^16.9.34 || ^17 || ^18
 
@@ -3468,6 +3471,10 @@ snapshots:
     dependencies:
       tslib: 2.8.0
 
+  '@swc/helpers@0.5.15':
+    dependencies:
+      tslib: 2.8.0
+
   '@swc/helpers@0.5.5':
     dependencies:
       '@swc/counter': 0.1.3
@@ -3765,14 +3772,14 @@ snapshots:
       json-schema-to-ts: 1.6.4
       ts-morph: 12.0.0
 
-  '@vkontakte/icons-sprite@2.3.0(react@18.3.1)':
+  '@vkontakte/icons-sprite@2.3.1(react@18.3.1)':
     dependencies:
-      '@swc/helpers': 0.5.13
+      '@swc/helpers': 0.5.15
       react: 18.3.1
 
-  '@vkontakte/icons@2.144.0(react@18.3.1)':
+  '@vkontakte/icons@2.157.0(react@18.3.1)':
     dependencies:
-      '@vkontakte/icons-sprite': 2.3.0(react@18.3.1)
+      '@vkontakte/icons-sprite': 2.3.1(react@18.3.1)
       react: 18.3.1
 
   '@vkontakte/vkjs@1.3.0':
@@ -3790,7 +3797,7 @@ snapshots:
   '@vkontakte/vkui@6.7.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@swc/helpers': 0.5.13
-      '@vkontakte/icons': 2.144.0(react@18.3.1)
+      '@vkontakte/icons': 2.157.0(react@18.3.1)
       '@vkontakte/vkjs': 1.3.0
       '@vkontakte/vkui-floating-ui': 0.2.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       date-fns: 3.6.0
@@ -4572,7 +4579,7 @@ snapshots:
       debug: 4.3.6
       enhanced-resolve: 5.17.1
       eslint: 8.57.0
-      eslint-module-utils: 2.8.1(@typescript-eslint/parser@7.2.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@7.2.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1)(eslint@8.57.0))(eslint@8.57.0)
+      eslint-module-utils: 2.8.1(@typescript-eslint/parser@7.2.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.0)
       eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.2.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.0)
       fast-glob: 3.3.2
       get-tsconfig: 4.7.6
@@ -4584,7 +4591,7 @@ snapshots:
       - eslint-import-resolver-webpack
       - supports-color
 
-  eslint-module-utils@2.8.1(@typescript-eslint/parser@7.2.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@7.2.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1)(eslint@8.57.0))(eslint@8.57.0):
+  eslint-module-utils@2.8.1(@typescript-eslint/parser@7.2.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.0):
     dependencies:
       debug: 3.2.7
     optionalDependencies:
@@ -4605,7 +4612,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 8.57.0
       eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.8.1(@typescript-eslint/parser@7.2.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@7.2.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1)(eslint@8.57.0))(eslint@8.57.0)
+      eslint-module-utils: 2.8.1(@typescript-eslint/parser@7.2.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.0)
       hasown: 2.0.2
       is-core-module: 2.15.0
       is-glob: 4.0.3
